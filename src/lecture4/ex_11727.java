@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 /*
 2*n 타일링 2
+buttomup방식풀이
  */
 public class ex_11727 {
     public static void main(String[] args) throws IOException {

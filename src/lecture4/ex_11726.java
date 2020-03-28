@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 /*
 2*n 타일링
+buttomup방식풀이
 
 런타임에러: 배열 크기를 input+1로 했을 경우, input=1일때, dp[2]에서 오류가 나기 때문에 발생했다..
  */
