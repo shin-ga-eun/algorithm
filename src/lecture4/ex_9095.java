@@ -15,6 +15,7 @@ public class ex_9095 {
         int t = Integer.parseInt(br.readLine());
         int[] array = new int[11];
 
+        array[0] = 1; //0인 경우도 적어주어야함.
         array[1] = 1;
         array[2] = 2;
         array[3] = 4;
