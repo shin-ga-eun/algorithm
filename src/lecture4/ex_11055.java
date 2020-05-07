@@ -27,10 +27,9 @@ public class ex_11055 {
         }
 
         //dp
-        dp[1] = array[1];
         for(int i=1; i<=N; i++){
             long max = 0;
-            for(int j=i-1; j>=1; j--){
+            for(int j=1; j<=i; j++){
                 if(array[i] > array[j]) {
                     max = Math.max(max, dp[j]);
                 }
