@@ -1,4 +1,4 @@
-package naver_hackday;
+package test;
 
 /*
     [문제1번]
