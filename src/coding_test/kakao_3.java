@@ -1,10 +1,10 @@
-package test;
+package coding_test;
 
 import java.util.HashMap;
 
 //보석이 주어졌을 때 가장 최소 구간으로 모든 보석을 구매할 때 시작 인덱스가 가장 짧은 구간의 시작과 끝을 반환.
 
-public class kk_3 {
+public class kakao_3 {
     public static class Solution {
         public static int[] solution(String[] gems) {
             int[] answer = {3,7};
@@ -38,7 +38,7 @@ public class kk_3 {
             int gems_size = map.size();
             boolean[] isBuy = new boolean[gems_size+1];
 
-            for(int i=1; i<array.length; i++){
+            for(int i=0; i<array.length; i++){
                 //isBuy 초기화
                 int temp_i = 0;
                 int temp_j = 0;

@@ -1,11 +1,11 @@
-package test;
+package coding_test;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-class ex2 {
+class naver_2 {
     public static int solution(String[] id_list, int k) {
         int answer = 0;
         Map<String, Integer> map = new HashMap();

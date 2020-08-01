@@ -1,4 +1,4 @@
-package test;
+package coding_test;
 
 /*
     [문제1번]
@@ -16,7 +16,7 @@ package test;
     출력값
     O?O?XXO
  */
-public class ex1 {
+public class naver_1 {
     public static String solution(int n, int[][] delivery) {
         String answer = "";
         String[] result = new String[n+1];

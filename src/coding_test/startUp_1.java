@@ -1,4 +1,4 @@
-package test;
+package coding_test;
 
 public class startUp_1 {
     public static Boolean IsBeauty(int p){
